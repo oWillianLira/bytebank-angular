@@ -1,1 +1,3 @@
-<app-newTransfer></app-newTransfer>
+<app-newTransfer (whenTransferring)="transfer($event)"></app-newTransfer>
+
+<app-transactions [transactionsInfo]="transactionsInfo"></app-transactions>

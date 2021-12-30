@@ -1,0 +1,14 @@
+<table class="table_transactions">
+  <thead>
+    <th>Value</th>
+    <th>Destination</th>
+    <th>Date</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let transaction of transactionsInfo">
+      <td>{{ transaction?.value | currency }}</td>
+      <td>{{ transaction?.destination }}</td>
+      <td>{{ transaction?.date | date: "short" }}</td>
+    </tr>
+  </tbody>
+</table>

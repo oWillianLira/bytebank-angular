@@ -1,0 +1,20 @@
+.table_transactions {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+
+  thead {
+    th {
+      border-bottom: solid 2px var(--primary);
+      width: 33%;
+      color: var(--primary);
+    }
+  }
+
+  tbody {
+    td {
+      border-bottom: solid 1px #c5c5c5;
+      padding: 8px;
+    }
+  }
+}
